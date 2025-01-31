@@ -1,0 +1,26 @@
+---
+import Welcome from "../components/Welcome.astro";
+import Layout from "../layouts/Layout.astro";
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+  <main
+    class="flex justify-center py-[calc(((100dvh-60px-112px)/2))] sm:py-[calc(((100dvh-96px-56px)/2))] lg:py-[calc(((100dvh-120px-56px)/2))]"
+  >
+    <h1 id="logo" class="font-bold text-6xl sm:text-8xl lg:text-[120px]">
+      pindd<span class="text-[#624DFF] text-[0.5em]">.xyz</span>
+    </h1>
+  </main>
+
+  <footer class="p-4 flex gap-8 flex-wrap justify-center sm:justify-between">
+    <div class="flex gap-8">
+      <p>+52 833 127 4261</p>
+      <p>contacto@pindd.xyz</p>
+    </div>
+
+    <p>&copy; pindd.xyz 2025.</p>
+  </footer>
+</Layout>

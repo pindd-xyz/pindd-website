@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', 'sans-serif';
+}
+
+/* @keyframes text-color-change {
+  0% {
+    color: black;
+  }
+
+  10% {
+    color: white;
+  }
+
+  50% {
+    color: white;
+  }
+
+  60%{
+    color: black;
+  }
+}
+
+@keyframes xyz-color-change {
+  0% {
+    color: #624DFF;
+  }
+
+  10% {
+    color: white;
+  }
+
+  50% {
+    color: white;
+  }
+
+  60%{
+    color: #624DFF;
+  }
+}
+
+.logo{
+  @apply flex items-baseline text-[200px] font-bold;
+}
+
+.pindd{
+  color: black;
+  font-size: 1em;
+  animation: text-color-change 15s linear 0s infinite;
+}
+
+.xyz {
+  color: #624DFF;
+  font-size: 0.5em;
+  animation: xyz-color-change 15s linear 0s infinite;
+} */
